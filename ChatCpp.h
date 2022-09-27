@@ -1,0 +1,41 @@
+// ChatCpp.h : main header file for the PROJECT_NAME application
+//
+
+#pragma once
+
+#ifndef __AFXWIN_H__
+	#error include 'stdafx.h' before including this file for PCH
+#endif
+
+#include "resource.h"		// main symbols
+
+
+
+//====================================================
+// Описание работы классов и методов исходника на:
+// https://www.interestprograms.ru
+// Исходные коды программ и игр
+// Автор исходных кодов Клочков Павел
+//====================================================
+
+
+
+// CChatCppApp:
+// See ChatCpp.cpp for the implementation of this class
+//
+
+class CChatCppApp : public CWinApp
+{
+public:
+	CChatCppApp();
+
+// Overrides
+	public:
+	virtual BOOL InitInstance();
+
+// Implementation
+
+	DECLARE_MESSAGE_MAP()
+};
+
+extern CChatCppApp theApp;
